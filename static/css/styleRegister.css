@@ -1,0 +1,22 @@
+body {
+    background-color:antiquewhite;
+}
+
+h1, form, div {
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+img {
+    height: 120px;
+    margin-bottom: 2%;
+}
