@@ -10,11 +10,11 @@
 <body>
     <h1> Register Users </h1> 
     <div> <img src="/static/img/register.png"> </div>    
-    <form>
-        <label> Name </label> <input /> <br> <br>
-        <label> Lastname </label> <input /> <br> <br>
-        <label> Identification </label> <input /> <br> <br>
-        <label> Birthday </label> <input /> <br> <br>
+    <form action="/register_user" method="post">
+        <label> Name </label> <input name="name"/> <br> <br>
+        <label> Lastname </label> <input name="lastname"/> <br> <br>
+        <label> Identification </label> <input name="id"/> <br> <br>
+        <label> Birthday </label> <input name="birthday" /> <br> <br>
         <button id="btn-register"> Register </button>
     </form>   
 </body>
